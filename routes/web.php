@@ -11,6 +11,9 @@
 |
 */
 $app->get('/', function () {
+    return view('loginwithyammer');
+});
+$app->get('/yammer', function () {
     return view('login');
 });
 $app->get('/dashboard', function () {
