@@ -19,8 +19,13 @@ $app->get('/yammer', function () {
 $app->get('/dashboard', function () {
     return view('hello');
 });
-$app->get('/plc/1', function () {
-    return view('plc');
+$app->get('/plc/{id}', function ($id) {
+    $json = file_get_contents('https://idontcare.run.aws-usw02-pr.ice.predix.io/plchash');
+    $obj = json_decode($json);
+    $data = $obj->$id;
+    $url = "http://pro.viewdns.info/reverseip/?host=".$id."&apikey=".env('VIEWDNSKEY')."&output=json";
+    $domain = file_get_contents($url);
+    return view('plc',compact('data','id','domain'));
 });
 $app->get('/login', function () {
     return view('login');
@@ -30,4 +35,8 @@ $app->get('/login/yammer', function () {
 });
 $app->post('/login/yammer', function () {
     return view('loser');
+});
+$app->get('/api/data/{id}', function () {
+    $json = file_get_contents('https://idontcare.run.aws-usw02-pr.ice.predix.io/plc');
+    return $json;
 });

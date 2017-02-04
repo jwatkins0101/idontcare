@@ -41,13 +41,22 @@
                 processing: false,
                 serverSide: false,
                 select: true,
-                "ajax": '/ajax/data/arrays.txt',
+                "fnRowCallback": function (nRow, aData, iDisplayIndex) {
+
+                    // Bind click event
+                    $(nRow).click(function() {
+                        window.open("/plc/"+aData.query);
+                    });
+
+                    return nRow;
+                },
+                "ajax": '/api/data/',
                 columns: [
-                    { data: 'ip', name: 'ip' },
-                    { data: 'organization', name: 'organization' },
+                    { data: 'query', name: 'ip' },
+                    { data: 'org', name: 'organization' },
                     { data: 'isp', name: 'isp' },
-                    { data: 'longitude', name: 'longitude' },
-                    { data: 'latitude', name: 'latitude' },
+                    { data: 'lon', name: 'longitude' },
+                    { data: 'lat', name: 'latitude' },
                 ],
             } );
         } );

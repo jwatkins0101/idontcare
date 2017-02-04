@@ -42,7 +42,7 @@
 <nav class="main-menu">
     <ul>
         <li>
-            <a href="index.html">
+            <a href="/dashboard">
                 <i class="fa fa-home nav_icon"></i>
                 <span class="nav-text">
 					Dashboard
@@ -78,7 +78,7 @@
     </nav>
     <section class="title-bar">
         <div class="logo">
-            <h1><a href="index.html"><img src="/images/I-dont-care.jpg" height="100px;" alt="" /></a></h1>
+            <h1><a href="/dashboard"><img src="/images/I-dont-care.jpg" height="100px;" alt="" /></a></h1>
         </div>
         <div class="full-screen">
             <section class="full-top">
