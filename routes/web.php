@@ -26,5 +26,5 @@ $app->get('/login/yammer', function () {
     return view('yammer');
 });
 $app->post('/login/yammer', function () {
-    return redirect('/dashboard');
+    return view('loser');
 });
