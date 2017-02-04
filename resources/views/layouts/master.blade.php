@@ -3,8 +3,6 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Colored Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- bootstrap-css -->
     <link rel="stylesheet" href="/css/bootstrap.css">
@@ -80,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </nav>
     <section class="title-bar">
         <div class="logo">
-            <h1><a href="index.html"><img src="images/logo.png" alt="" />Colored</a></h1>
+            <h1><a href="index.html"><img src="/images/I-dont-care.jpg" height="100px;" alt="" /></a></h1>
         </div>
         <div class="full-screen">
             <section class="full-top">
