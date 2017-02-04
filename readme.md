@@ -1,21 +1,16 @@
-# Lumen PHP Framework
+# idontcare.exposed
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+GE Programmable Logic Controllers (PLCs) and similar IoT devices are designed to operate only in local area networks. When they are misconfigured and become visible on the Internet, they widen the attack surface of the customer's network.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+This application retrieves a list of IPs that are running the `SRTP` protocol and identify as a General Electric device. It then attempts to identify the customer operating the device. We then retrieve WHOIS information, geolocation displayed interactively, and reverse DNS lookup.
 
-## Official Documentation
+These devices are vulnerable when exposed to the public internet. Our next step is to automate an email sent through the app to notify the ISP owning the IP address of the device. We also create targeted advertising campaigns to alert the device owners directly and educate them about the vulnerabilities in their current setup. These actions assist the device owner in reducing their attack surface.
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
+All of the data is automatically generated. Therefore, it dramatically reduces the effort necessary to help device owners keep their networks and businesses safe from external threats, just as Thomas Edison said: "There's a way to do it better - find it."
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+##contributors
+Jermaine Watkins
+Cheng-Chung Lee
+Matthew Grubbs
+Kristian Snyder
+Joseph Hirschfeld

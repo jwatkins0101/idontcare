@@ -25,7 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="grids-heading gallery-heading signup-heading">
             <h2>Login</h2>
         </div>
-        <a href="/yammer">
+        <a href="/dashboard">
             <img ng-src="https://www.filepicker.io/api/file/KYDbdovdQAG9ABZ0LLiT" src="https://www.filepicker.io/api/file/KYDbdovdQAG9ABZ0LLiT">
         </a>
         <figcaption>Sign in with Yammer</figcaption>
