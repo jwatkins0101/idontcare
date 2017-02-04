@@ -50,7 +50,7 @@
 
                     return nRow;
                 },
-                "ajax": '/api/data/',
+                "ajax": '/api/data/1',
                 columns: [
                     { data: 'query', name: 'ip' },
                     { data: 'org', name: 'organization' },
