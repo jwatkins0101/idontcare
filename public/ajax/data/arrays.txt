@@ -1,0 +1,15 @@
+{
+	"data": [{
+		"ip": "166.143.143.154",
+		"organization": "Optimum Online",
+		"isp": "Optimum Online",
+		"longitude": 37.751,
+		"latitude": -97.822
+	}, {
+		"ip": "166.143.143.154",
+		"organization": "Optimum Online",
+		"isp": "Optimum Online",
+		"longitude": 37.751,
+		"latitude": -97.822
+	}]
+}

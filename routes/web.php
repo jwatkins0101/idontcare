@@ -11,6 +11,9 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-    return $app->version();
+$app->get('/', function () {
+    return view('hello');
+});
+$app->get('/plc/1', function () {
+    return view('plc');
 });
