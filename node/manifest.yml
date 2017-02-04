@@ -1,0 +1,15 @@
+---
+applications:
+- name: idontcare
+  memory: 128M
+  buildpack: nodejs_buildpack
+  command:  node app.js
+#services:
+#  - HackUAA
+env:
+    node_env: nodejs
+    #uaa_service_label : HackUAA
+    #clientId: my-client-id
+    #base64ClientCredential: eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIzOWJhMWVjOS0wMjc0LTQ4MDYtYmY3My1lNTliYjVlMDMxZTciLCJzdWIiOiJteS1jbGllbnQtaWQiLCJzY29wZSI6WyJ1YWEucmVzb3VyY2UiLCJvcGVuaWQiLCJ1YWEubm9uZSJdLCJjbGllbnRfaWQiOiJteS1jbGllbnQtaWQiLCJjaWQiOiJteS1jbGllbnQtaWQiLCJhenAiOiJteS1jbGllbnQtaWQiLCJncmFudF90eXBlIjoiY2xpZW50X2NyZWRlbnRpYWxzIiwicmV2X3NpZyI6ImJlZDNiYTg1IiwiaWF0IjoxNDY4OTU0NDM1LCJleHAiOjE0Njg5OTc2MzUsImlzcyI6Imh0dHBzOi8vYzlkNzBkZWYtNjNiNi00Njc4LWFmYWEtMmQwNzVhNzdlMzg3LnByZWRpeC11YWEucnVuLmF3cy11c3cwMi1wci5pY2UucHJlZGl4LmlvL29hdXRoL3Rva2VuIiwiemlkIjoiYzlkNzBkZWYtNjNiNi00Njc4LWFmYWEtMmQwNzVhNzdlMzg3IiwiYXVkIjpbIm15LWNsaWVudC1pZCIsInVhYSIsIm9wZW5pZCJdfQ.DAn-0td1d7tLoIJKIT0g7dOubev0X2WwLzlUCGpLFnYnSPFugGzmnvBmvrBj1Eiish_YviW50eIWQQNghUHuFa0_KnBd2JbiCFuatfnRxynXkmfAu2RotPyawhmejIz-_fw8UQmFGJcukpZIkx6f7taTIIXP8dnxEKjkRShY6m-H3So9qTeAIgrsPUl3Xda4jaHAsunb8rXuDOtbk0iN27UTf-Qhtwi5AuTJNOh9Hs6FmEZtI7YjpK-Lb0Rly-zmhU5pYpNDX9UIpzp7Be0YBL2jYLw3BheWzrIuxOHLkz5p1FIYAvOT_HUa39ozJBQUPSXDcIxPGZNn2za7PzB4_w
+    # Following properties configured only for Timeseries WindData service Integration
+    #windServiceUrl: "{URL of the microservice <your-name>-winddata-timeseries-service}, e.g.  https://your-name-winddata-timeseries-service.run.asw-usw02-pr.predix.io"
